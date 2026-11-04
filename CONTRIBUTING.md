@@ -1,17 +1,17 @@
 # Contributing and Public Feedback
 
-Thank you for your interest in ProcessOverProfit. This is a **documentation-only** repository, not a public source-code project. Public Issues are initially disabled; these guidelines apply only if public feedback is enabled in the future.
+This repository is a **public documentation and project-identity space**, not a public source-code distribution.
 
-## Permitted scope
+## Documentation contributions
 
-- General, non-sensitive ideas and documentation corrections.
-- High-level feedback on reliability, usability, testing and defensive design.
-- Material you own or have permission to share publicly.
+Public pull requests proposing **non-sensitive documentation corrections** may be reviewed at the maintainer's discretion. Public Issues are disabled. No private repository, private application or development-system access is granted to contributors.
 
-Do **not** post credentials, keys, wallet addresses, private file paths, internal logs, unpublished code, exploit steps, sensitive security findings or trading instructions. Do not request access to private source, governance records or infrastructure.
+Please limit submissions to general, non-sensitive corrections or engineering suggestions. Do not submit source code, credentials, token values, wallet details, private paths, internal logs, exploit instructions, private test evidence, operational configuration or financial-performance claims.
 
-## Participation and rights
+## Security findings
 
-Submitting feedback does not create a contract, employment or formal collaboration relationship; it does not grant private access or authorize changes to any private system. Contributors retain rights in their own submissions, subject to GitHub's applicable terms; **no separate contributor licence agreement is established here**. Do not submit material if you cannot permit its public display and discussion.
+**Do not submit vulnerabilities through public pull requests.** For a security concern with this public repository, use the private reporting route described in [SECURITY.md](SECURITY.md). Do not independently test any private project or infrastructure.
 
-A maintainer may close or edit submissions where the platform permits, but public material may already have been copied or indexed.
+## Rights and expectations
+
+Submit only material you have the right to share publicly. Feedback does not establish employment, contractual obligations, unrestricted access, a contributor licence agreement or an obligation to accept a contribution. Material posted publicly may be indexed or copied even if later removed.

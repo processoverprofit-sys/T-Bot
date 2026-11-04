@@ -2,14 +2,16 @@
 
 ## Scope
 
-This public repository contains documentation only. It does not distribute application source code, binaries, credentials, wallet material or internal security evidence.
+This is a **public, documentation-only** repository. It is not a public release of the private software project, its credentials, operational infrastructure, signing systems or internal evidence.
 
-## Sensitive reporting
+## Confidential reporting
 
-**Do not post vulnerabilities, exploit details, secrets, wallet identifiers, private paths or sensitive evidence in public issues, pull requests or discussions.**
+To report a potential vulnerability in **this public repository**, use GitHub's **Security → Advisories → Report a vulnerability** feature. Private vulnerability reporting is enabled for this repository.
 
-There is **currently no confirmed confidential vulnerability-reporting channel** for this repository. Public Issues are disabled. Do not publish sensitive details or attempt to work around this limitation. A confidential channel may be announced here only after it has been separately configured and verified.
+Do **not** post sensitive findings in public issues, pull requests or discussions. Do not include credentials, wallets, private source code, internal logs, operational paths or unpublished security evidence. If such material has already been exposed, avoid copying it into a new report and state only that sensitive material may be present.
 
-## Authorization
+GitHub's private reporting feature is limited to the repository's advisory workflow. It does not give reporters access to private application source, wallets, systems, credentials or evidence.
 
-This documentation grants no access to private systems, code, accounts, wallets or infrastructure. Do not test systems without their owner's explicit authorization.
+## Authorisation and support
+
+This policy grants no permission to access or test non-public systems. Security research requires explicit authorisation from the system owner. No bug bounty, paid review or response-time commitment is offered.
