@@ -1,0 +1,30 @@
+name: General idea or feedback
+description: Non-sensitive, high-level project feedback
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "PUBLIC ISSUE (only if Issues are later enabled): never include credentials, wallet addresses, private identifiers, internal paths, logs, vulnerability or exploit details, or unpublished code. No confidential reporting channel is confirmed."
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea or suggestion
+      description: Describe your idea at a high level without sensitive implementation details.
+      placeholder: A general improvement or engineering principle...
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why might this help?
+      description: Focus on reliability, usability, documentation or defensive design.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public disclosure check
+      options:
+        - label: I have not included secrets, private identifiers, internal evidence or vulnerability details.
+          required: true

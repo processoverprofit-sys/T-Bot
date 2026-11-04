@@ -1,0 +1,29 @@
+name: Documentation correction
+description: Suggest a correction to public documentation only
+title: "[Docs] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "PUBLIC ISSUE (only if Issues are later enabled): do not paste private code, keys, wallet addresses, system paths, logs, vulnerabilities or sensitive security findings. No confidential reporting channel is confirmed."
+  - type: input
+    id: page
+    attributes:
+      label: Public document
+      placeholder: README.md
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: Describe the public-facing correction without revealing private information.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public disclosure check
+      options:
+        - label: This report contains no secrets, private project evidence or vulnerability details.
+          required: true
