@@ -1,3 +1,5 @@
+![T-Bot banner](assets/tbot-banner.png)
+
 # T-Bot
 
 **ProcessOverProfit — Verification Before Execution**
