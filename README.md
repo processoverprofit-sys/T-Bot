@@ -59,7 +59,7 @@ I've set up a dedicated ProcessOverProfit Discord community for developers, Linu
 
 If you'd like to help, you're welcome to express interest in discussing software architecture, Python, Solana, risk-control design, testing or the public documentation. You don't need to be an expert to join the conversation. Constructive feedback and questions are welcome.
 
-Discord access is managed by the maintainer. If you found this project through Reddit or another community discussion, you can ask me there for an invitation where the community rules permit. No public invite is listed here at present. Joining Discord does not grant access to private source code, operational systems or trading authority.
+**Joining guidance:** [ProcessOverProfit community guide](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access). Discord access is managed by the maintainer. If you found this project through Reddit or another community discussion, you can ask me there for an invitation where the community rules permit. No public invite is listed here at present. Joining Discord does not grant access to private source code, operational systems or trading authority.
 
 ## Feedback and security
 

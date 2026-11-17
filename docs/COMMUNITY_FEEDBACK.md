@@ -25,7 +25,7 @@ Non-sensitive documentation corrections may be proposed through public pull requ
 
 ## Continue the discussion on Discord
 
-ProcessOverProfit also has a dedicated Discord community, connected to GitHub through repository notifications. It provides a place for project followers and approved developers to discuss public-safe engineering ideas, ask questions and learn from one another. If you found T-Bot through a community discussion, you can express interest in joining there where the rules permit. Invitations and developer access are managed by the maintainer; no private code or operational access is granted by joining.
+ProcessOverProfit also has a dedicated Discord community, connected to GitHub through repository notifications. It provides a place for project followers and approved developers to discuss public-safe engineering ideas, ask questions and learn from one another. If you found T-Bot through a community discussion, you can express interest in joining there where the rules permit. Invitations and developer access are managed by the maintainer; no private code or operational access is granted by joining. See the [central invitation-request guidance](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access) for the current joining status.
 
 I appreciate constructive criticism. This is the first step toward making the project easier to understand, not a claim that the underlying software has been independently verified.
 
