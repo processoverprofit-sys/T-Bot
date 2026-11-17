@@ -1,0 +1,32 @@
+# Development status
+
+**Public documentation | 17 November 2026**
+
+T-Bot is an independently developed research and software-engineering project. I am learning as I build it, using AI-assisted development and review. It is not a qualified operational trading system or a public release. Nobody is being asked to deposit funds, connect a wallet or trust the bot with their SOL.
+
+## What is established publicly
+
+| Area | Status |
+| --- | --- |
+| Project goals and engineering principles | Documented |
+| Private implementation | Under active development |
+| System-wide functional qualification | Not claimed complete |
+| Independent professional security certification | Not claimed |
+| Verified paper-trading performance | Not available for publication here |
+| Production readiness | Not achieved/claimed |
+| Live-money execution | Not authorised |
+| Public executable or source distribution | None |
+
+This table is a disclosure summary, not an audit of private implementation. It makes no claim about specific private test runs, their counts or outcomes.
+
+## Who is reviewing the work?
+
+Development is owner-led and AI-assisted. AI can help with analysis, code review, drafting test specifications and identifying weaknesses. It does not provide independent human assurance, and agreement between AI reviewers is not professional security certification. The owner remains responsible for decisions and authorisation. No completed independent human audit is asserted in these public documents.
+
+## What needs to happen next?
+
+The intended sequence is review of requirements and expected outcomes, preparation of controlled test environments, functional testing under fictional or simulated inputs, assessment of failures and independent review where available. Paper trading and any eventual live-money qualification are separate stages that require their own readiness decisions. No stage is authorised by this documentation.
+
+Where results are eventually shared, the aim is to identify the tested scope, environment in non-sensitive terms, expected outcome, actual outcome, limitations and reviewer independence. Negative results and unresolved issues matter as much as passes.
+
+See [testing](TESTING.md) and [community feedback](COMMUNITY_FEEDBACK.md).
