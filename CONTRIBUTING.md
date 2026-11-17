@@ -1,12 +1,12 @@
 # Contributing and Public Feedback
 
-This repository is a **public documentation and project-identity space**, not a public source-code distribution.
+This repository is a **public documentation and educational collaboration space**, not a distribution of the private T-Bot application.
 
-## Documentation contributions
+## Public lab and documentation contributions
 
-Public pull requests proposing **non-sensitive documentation corrections** may be reviewed at the maintainer's discretion. Public Issues are disabled. No private repository, private application or development-system access is granted to contributors.
+Public pull requests proposing **non-sensitive documentation corrections or changes confined to the standalone public lab** may be reviewed at the maintainer's discretion. Public Issues are disabled. No private repository, private application or development-system access is granted to contributors.
 
-Please limit submissions to general, non-sensitive corrections or engineering suggestions. Do not submit source code, credentials, token values, wallet details, private paths, internal logs, exploit instructions, private test evidence, operational configuration or financial-performance claims.
+Please limit submissions to general, non-sensitive corrections or engineering suggestions. Only original, non-sensitive example code and tests within the lab may be proposed. Do not submit operational source code, credentials, token values, wallet details, private paths, internal logs, exploit instructions, private test evidence, operational configuration or financial-performance claims.
 
 ## Security findings
 
@@ -18,4 +18,4 @@ Submit only material you have the right to share publicly. Feedback does not est
 
 ## Before submitting
 
-Read the [publication checklist](docs/PUBLICATION_CHECKLIST.md) and [community conduct](CODE_OF_CONDUCT.md). Use the pull request template for non-sensitive corrections only.
+Read the [publication checklist](docs/PUBLICATION_CHECKLIST.md) and [community conduct](CODE_OF_CONDUCT.md). Choose a [starter task](community/START_HERE.md). Use the pull request template for non-sensitive lab changes or documentation corrections. Include test outcomes and limitations.

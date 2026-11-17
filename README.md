@@ -19,9 +19,15 @@ I'm independently developing T-Bot, a local-first Solana trading system, while l
 | Project type | Privately developed automated trading system |
 | Current phase | Active private development and security qualification |
 | Live-money execution | Not currently authorised |
-| Public distribution | Documentation only; no executable release |
+| Public distribution | Documentation and standalone educational lab; no operational application release |
 
 **Start here:** [FAQ](docs/FAQ.md) · [Publication checklist](docs/PUBLICATION_CHECKLIST.md) · [Evidence template](docs/EVIDENCE_REPORT_TEMPLATE.md) · [Community conduct](CODE_OF_CONDUCT.md) · [Engineering HQ](https://github.com/processoverprofit-sys/Processoverprofit-sys)
+
+## Developers: start here
+
+Choose a [starter task](community/START_HERE.md), inspect the [standalone offline lab](examples/review_gate/README.md), or help improve its tests. The example is newly written, not extracted from T-Bot. It cannot trade or interact with wallets. Its results are not T-Bot qualification evidence.
+
+Discuss ideas with the ProcessOverProfit Discord community. [Request joining guidance](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access) through the Reddit or other existing community discussion where permitted. A verified direct application link is pending.
 
 ## Technical documentation
 
@@ -59,7 +65,7 @@ Active private development and security qualification. T-Bot is not publicly rel
 
 ## Public repository scope
 
-This is a documentation-only repository. It does not distribute operational source code, executable software, trading strategies, live risk thresholds, internal configurations, wallet addresses, signing credentials, API keys or private security evidence.
+This repository contains documentation and a separate, non-operational educational example. It does not distribute operational T-Bot source, application binaries, trading strategies, live risk thresholds, internal configurations, wallet addresses, signing credentials, API keys or private security evidence. See [rights notice](LICENSE-NOTICE.md) for current licensing scope.
 
 For the wider portfolio, visit [ProcessOverProfit | Engineering HQ](https://github.com/processoverprofit-sys/Processoverprofit-sys). [BrainBot](https://github.com/processoverprofit-sys/BrainBot) is documented separately.
 
@@ -73,7 +79,7 @@ If you'd like to help, you're welcome to express interest in discussing software
 
 ## Feedback and security
 
-I'm looking for constructive feedback on the public documentation, not customers or funds. Public Issues are currently disabled. Non-sensitive documentation corrections may be proposed through public pull requests under [CONTRIBUTING.md](CONTRIBUTING.md). See [community feedback](docs/COMMUNITY_FEEDBACK.md) for specific questions and [SECURITY.md](SECURITY.md) for confidential reporting. Do not disclose vulnerabilities or private information publicly.
+I'm looking for constructive feedback on the public documentation, not customers or funds. Public Issues are currently disabled. Non-sensitive lab improvements and documentation corrections may be proposed through public pull requests under [CONTRIBUTING.md](CONTRIBUTING.md). See [community feedback](docs/COMMUNITY_FEEDBACK.md) for specific questions and [SECURITY.md](SECURITY.md) for confidential reporting. Do not disclose vulnerabilities or private information publicly.
 
 ## Financial disclaimer
 

@@ -2,7 +2,7 @@
 
 ## Can I download T-Bot?
 
-No. This is a public documentation repository, not an application release.
+No. The private T-Bot application is not released. A [standalone educational lab](../examples/review_gate/README.md) is available to evaluate separately.
 
 ## What is its current status?
 
@@ -10,7 +10,7 @@ Private development and security qualification; no live-money execution is autho
 
 ## Has it been independently audited?
 
-No independent certification is claimed. The [testing examples](TESTING.md) are fictional and unexecuted. AI-assisted review is not independent human assurance.
+No independent certification is claimed. The private-system [testing examples](TESTING.md) are fictional and unexecuted. The standalone lab has its own demonstration results, not results for T-Bot. AI-assisted review is not independent human assurance.
 
 ## Is AI picking trades?
 
@@ -22,6 +22,6 @@ No. Security is an engineering objective. AI-assisted review can miss defects, a
 
 ## How can I help?
 
-Read [CONTRIBUTING.md](../CONTRIBUTING.md) and the [central community guide](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md). Direct Discord applications remain pending. Do not request private access through public pull requests.
+Choose a [starter task](../community/START_HERE.md) and read [CONTRIBUTING.md](../CONTRIBUTING.md) and the [central community guide](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md). Direct Discord applications remain pending. Do not request private access through public pull requests.
 
 [Return to overview](../README.md)

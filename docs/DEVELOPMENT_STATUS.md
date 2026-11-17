@@ -15,7 +15,8 @@ T-Bot is an independently developed research and software-engineering project. I
 | Verified paper-trading performance | Not available for publication here |
 | Production readiness | Not achieved/claimed |
 | Live-money execution | Not authorised |
-| Public executable or source distribution | None |
+| Public operational application or source distribution | None |
+| Standalone educational example | Separate lab; not private application code or qualification evidence |
 
 This table is a disclosure summary, not an audit of private implementation. It makes no claim about specific private test runs, their counts or outcomes.
 
