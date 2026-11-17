@@ -5,7 +5,7 @@ labels: []
 body:
   - type: markdown
     attributes:
-      value: "PUBLIC ISSUE (only if Issues are later enabled): never include credentials, wallet addresses, private identifiers, internal paths, logs, vulnerability or exploit details, or unpublished code. No confidential reporting channel is confirmed."
+      value: "PUBLIC ISSUE (only if Issues are later enabled): never include credentials, wallet addresses, private identifiers, internal paths, logs, vulnerability or exploit details, or unpublished code. For security concerns, read SECURITY.md and use only a confirmed confidential reporting route; never submit sensitive findings publicly."
   - type: textarea
     id: idea
     attributes:
