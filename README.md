@@ -2,11 +2,13 @@
 
 # T-Bot | Investment BOT
 
-**Local-first Solana engineering · Deterministic risk controls · Security qualification**
+**Local-first Solana research · Rule-based decision design · Security review in progress**
 
 **ProcessOverProfit — Verification Before Execution**
 
-I'm independently developing T-Bot, a local-first Solana trading system, while learning software engineering through hands-on development and AI-assisted research, coding and review. The project is not operational as a qualified trading system and is not a public product. Its design objectives include deterministic risk controls, defensive validation and verification before execution; these are not claims that every control is implemented or independently verified.
+I'm independently developing T-Bot, a local-first Solana trading system, while learning software engineering through hands-on development. I use AI to help research, write and review software. The intended trading decision path is rule-based, not an AI model selecting trades. The project is not a qualified operational trading system or a public product.
+
+**Security is a design objective, not an assurance claim.** AI-assisted review can miss defects or produce incorrect conclusions. No completed independent human security audit or system-wide qualification is asserted.
 
 ## Project overview
 
@@ -18,6 +20,8 @@ I'm independently developing T-Bot, a local-first Solana trading system, while l
 | Current phase | Active private development and security qualification |
 | Live-money execution | Not currently authorised |
 | Public distribution | Documentation only; no executable release |
+
+**Start here:** [FAQ](docs/FAQ.md) · [Publication checklist](docs/PUBLICATION_CHECKLIST.md) · [Evidence template](docs/EVIDENCE_REPORT_TEMPLATE.md) · [Community conduct](CODE_OF_CONDUCT.md) · [Engineering HQ](https://github.com/processoverprofit-sys/Processoverprofit-sys)
 
 ## Technical documentation
 
@@ -31,6 +35,12 @@ Community feedback highlighted that an overview alone does not give developers e
 | [Threat model](docs/THREAT_MODEL.md) | Selected threats, intended controls and open questions |
 | [Testing and examples](docs/TESTING.md) | Proposed test methodology, illustrative cases and evidence limitations |
 | [Community feedback](docs/COMMUNITY_FEEDBACK.md) | How feedback is being addressed and where developers can help |
+
+## Does AI decide what to trade?
+
+No, not in the intended design. Eligibility and risk decisions are defined by explicit rules over validated inputs and policy state. Given identical inputs, policy version and relevant state, the same rule-based decision is expected. AI is an engineering aid, not a decision-maker or source of execution authority. Eligibility alone cannot authorise a transaction. These boundaries are design requirements that still need implementation-level evidence; reproducibility does not guarantee a profitable or safe trade.
+
+See [architecture](docs/ARCHITECTURE.md), [risk principles](docs/RISK_PRINCIPLES.md) and [testing](docs/TESTING.md).
 
 ## Engineering principles
 

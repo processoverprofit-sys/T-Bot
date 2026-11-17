@@ -20,6 +20,18 @@ Define a requirement and a precise expected outcome before testing. Use controll
 
 The case names and symbolic inputs are illustrative only. No private fixtures, thresholds or execution procedures are included. See [risk principles](RISK_PRINCIPLES.md) for the corresponding public requirements.
 
+## Additional proposed decision-boundary tests
+
+The following fictional specifications address the distinction between rule-based decisions and AI-assisted development. They are unexecuted and do not establish that the private implementation meets the stated expectations.
+
+| Example | Fictional stimulus | Expected design outcome | Actual outcome |
+| --- | --- | --- | --- |
+| EX-08 | Repeat an evaluation with identical validated inputs, policy version and relevant state. | Identical eligibility and risk decisions. | Not run |
+| EX-09 | A fictional AI recommendation conflicts with a required rule outcome. | The recommendation does not replace the rule outcome or grant eligibility. | Not run |
+| EX-10 | A fictional recommendation or eligibility result is supplied without execution authorisation. | No execution authority is granted. | Not run |
+
+These are proposed assurance questions, not a claim that any model is connected to the runtime. Deterministic rule evaluation and security qualification are separate questions. Test results must be supported by observed evidence and appropriate review.
+
 ## Evidence and paper trading
 
 No verified paper-trading logs or performance results are supplied here. The project is not qualified for live trading. Future public evidence, if available and approved, should distinguish simulated results, paper trading, functional tests and independent review. Simulated or paper results cannot establish real execution performance and may underrepresent fees, liquidity changes and slippage.

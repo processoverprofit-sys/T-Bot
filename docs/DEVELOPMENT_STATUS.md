@@ -21,7 +21,9 @@ This table is a disclosure summary, not an audit of private implementation. It m
 
 ## Who is reviewing the work?
 
-Development is owner-led and AI-assisted. AI can help with analysis, code review, drafting test specifications and identifying weaknesses. It does not provide independent human assurance, and agreement between AI reviewers is not professional security certification. The owner remains responsible for decisions and authorisation. No completed independent human audit is asserted in these public documents.
+Development is owner-led and AI-assisted. AI can help with analysis, code review, drafting test specifications and identifying weaknesses. It does not provide independent human assurance, and agreement between AI reviewers is not professional security certification. The owner remains responsible for engineering decisions and authorisation. No completed independent human audit is asserted in these public documents.
+
+Security-first describes the priority given to risk reduction and verification; it does not describe a demonstrated security outcome. AI-generated code, analysis and test expectations can contain correlated errors. A credible assurance claim requires evidence of implementation behaviour, appropriate test coverage, reproducibility, limitations and independently established review provenance. No agreement between AI reviewers is treated as a substitute for independent human review.
 
 ## What needs to happen next?
 
