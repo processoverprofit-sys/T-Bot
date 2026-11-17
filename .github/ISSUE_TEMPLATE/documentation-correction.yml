@@ -5,7 +5,7 @@ labels: []
 body:
   - type: markdown
     attributes:
-      value: "PUBLIC ISSUE (only if Issues are later enabled): do not paste private code, keys, wallet addresses, system paths, logs, vulnerabilities or sensitive security findings. No confidential reporting channel is confirmed."
+      value: "PUBLIC ISSUE: do not paste private code, keys, wallet addresses, system paths, logs, vulnerabilities or sensitive security findings. No confidential reporting channel is confirmed."
   - type: input
     id: page
     attributes:

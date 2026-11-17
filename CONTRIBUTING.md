@@ -4,13 +4,13 @@ This repository is a **public documentation and educational collaboration space*
 
 ## Public lab and documentation contributions
 
-Public pull requests proposing **non-sensitive documentation corrections or changes confined to the standalone public lab** may be reviewed at the maintainer's discretion. Public Issues are disabled. No private repository, private application or development-system access is granted to contributors.
+Public pull requests proposing **non-sensitive documentation corrections or changes confined to the standalone public lab** may be reviewed at the maintainer's discretion. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive engineering tasks, documentation corrections and general feedback. Issues may be used to propose public-safe design and test ideas; code contributions remain confined to the existing standalone lab until a further component is separately approved for publication. No private repository, private application or development-system access is granted to contributors.
 
 Please limit submissions to general, non-sensitive corrections or engineering suggestions. Only original, non-sensitive example code and tests within the lab may be proposed. Do not submit operational source code, credentials, token values, wallet details, private paths, internal logs, exploit instructions, private test evidence, operational configuration or financial-performance claims.
 
 ## Security findings
 
-**Do not submit vulnerabilities through public pull requests.** For a security concern with this public repository, use the private reporting route described in [SECURITY.md](SECURITY.md). Do not independently test any private project or infrastructure.
+**Do not submit vulnerabilities through public issues or pull requests.** For a security concern with this public repository, use the private reporting route described in [SECURITY.md](SECURITY.md). Do not independently test any private project or infrastructure.
 
 ## Rights and expectations
 

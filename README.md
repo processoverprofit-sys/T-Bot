@@ -79,7 +79,7 @@ If you'd like to help, you're welcome to express interest in discussing software
 
 ## Feedback and security
 
-I'm looking for constructive feedback on the public documentation, not customers or funds. Public Issues are currently disabled. Non-sensitive lab improvements and documentation corrections may be proposed through public pull requests under [CONTRIBUTING.md](CONTRIBUTING.md). See [community feedback](docs/COMMUNITY_FEEDBACK.md) for specific questions and [SECURITY.md](SECURITY.md) for confidential reporting. Do not disclose vulnerabilities or private information publicly.
+I'm looking for constructive feedback on the public documentation, not customers or funds. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive engineering tasks, documentation corrections and general feedback. Non-sensitive lab improvements and documentation corrections may be proposed through public pull requests under [CONTRIBUTING.md](CONTRIBUTING.md). See [community feedback](docs/COMMUNITY_FEEDBACK.md) for specific questions and [SECURITY.md](SECURITY.md) for confidential reporting. Do not disclose vulnerabilities or private information publicly.
 
 ## Financial disclaimer
 

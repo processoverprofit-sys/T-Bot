@@ -11,6 +11,17 @@ Voluntary, unpaid collaboration. No private source, wallets, credentials, Solana
 | LAB-05 | Technical writing / Linux | Improve instructions for beginners and portability. |
 | LAB-06 | Community / QA | Review the public threat model and suggest a missing fictional non-operational test specification. |
 
+## Engineering contribution tasks
+
+These tasks address reusable engineering needs through public-safe proposals, fictional inputs and existing lab-scoped changes. No private component has been published or cleared by these tasks.
+
+| Task | Focus |
+| --- | --- |
+| [ENG-01](https://github.com/processoverprofit-sys/T-Bot/issues/7) | Evidence integrity and manifest verification |
+| [ENG-02](https://github.com/processoverprofit-sys/T-Bot/issues/8) | Input validation and malformed-data handling |
+| [ENG-03](https://github.com/processoverprofit-sys/T-Bot/issues/9) | Reproducibility and deterministic testing |
+| [ENG-04](https://github.com/processoverprofit-sys/T-Bot/issues/10) | Credential separation and privacy architecture |
+
 ## Work together on Discord
 
 ProcessOverProfit has community conversations, developer collaboration spaces, restricted private discussion areas and GitHub notification channels. Discuss ideas and progress in channels you are authorised to access. Private access remains separately controlled.
@@ -19,6 +30,6 @@ ProcessOverProfit has community conversations, developer collaboration spaces, r
 
 ## Start working
 
-Read the [lab instructions](../examples/review_gate/README.md), [contribution policy](../CONTRIBUTING.md) and [rights notice](../LICENSE-NOTICE.md). Choose a task, propose an original non-sensitive improvement, and explain your observations in a focused public pull request. Issues are disabled; do not use pull requests to request membership.
+Read the [lab instructions](../examples/review_gate/README.md), [contribution policy](../CONTRIBUTING.md) and [rights notice](../LICENSE-NOTICE.md). Choose a task, propose an original non-sensitive improvement, and explain your observations in a focused public pull request. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive task coordination and feedback. Do not use issues or pull requests to request membership.
 
 No real transactions, trading integration, private-system testing, or operational configuration are in scope. The maintainer may consider future personal-use access to a separately qualified version for meaningful contributors, subject to readiness, rights, terms and separate approval. No software access, compensation, profit or financial return is promised.

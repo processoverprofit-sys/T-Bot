@@ -2,7 +2,7 @@
 
 **Status:** Review proposal only. This document does not qualify T-Bot for operation or authorise live-money execution.
 
-## Verified public repository baseline (17 November 2026)
+## Historical verified public repository baseline (17 November 2026, before the Issues setting changed)
 
 - `main` is covered by an active ruleset preventing deletion and force pushes, but not requiring pull requests or approvals.
 - Issues and Discussions are disabled; issue templates are dormant.
@@ -10,6 +10,10 @@
 - `docs/TESTING.md` contains fictional, unexecuted examples, not observed test results.
 - The threat model is preliminary; no independent security certification or verified paper-trading performance is claimed.
 - The existing `SECURITY.md` describes private vulnerability reporting; the live GitHub setting has not been independently confirmed.
+
+## Subsequent configuration update (17 November 2026)
+
+The maintainer enabled public Issues; the setting was verified. Issues are now available for non-sensitive tasks and feedback under [CONTRIBUTING.md](../CONTRIBUTING.md). The historical baseline above is retained for traceability. This does not authorize private access, a new component release, or any operational activity. Private vulnerability reporting remains unverified. Other settings are outside this update.
 
 ## Before proposing a public change
 
@@ -29,7 +33,7 @@
 2. Independently confirm private vulnerability reporting, secret scanning and push protection availability and state.
 3. Inspect repository and app permissions, tokens and Actions permissions without exposing secrets.
 4. Consider a strictly documentation-only link/Markdown check in a **separately approved** PR. No shell commands from untrusted contributions, secrets, trading dependencies or private code.
-5. Leave Issues and Discussions disabled unless a moderation and reporting process is separately approved.
+5. Historical recommendation: leave Issues and Discussions disabled unless a moderation and reporting process is separately approved. Public Issues have since been separately enabled by the maintainer; the public contribution and security policies still apply. No change to Discussions is authorized by this update.
 
 ## Public evidence standard (future, conditional)
 

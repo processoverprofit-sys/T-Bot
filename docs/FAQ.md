@@ -22,6 +22,6 @@ No. Security is an engineering objective. AI-assisted review can miss defects, a
 
 ## How can I help?
 
-Choose a [starter task](../community/START_HERE.md) and read [CONTRIBUTING.md](../CONTRIBUTING.md) and the [central community guide](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md). Direct Discord applications remain pending. Do not request private access through public pull requests.
+Choose a [starter task](../community/START_HERE.md) and read [CONTRIBUTING.md](../CONTRIBUTING.md) and the [central community guide](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md). Direct Discord applications remain pending. Do not request private access through public issues or pull requests.
 
 [Return to overview](../README.md)

@@ -36,7 +36,7 @@ A further reviewer asked for genuine observed evidence of risk rejection and non
 - Review the proposed test cases and suggest additional failure or boundary cases using fictional inputs.
 - Suggest ways to present reproducible evidence without exposing sensitive implementation or personal information.
 
-Non-sensitive lab changes and documentation corrections may be proposed through public pull requests at the maintainer's discretion. Public Issues remain disabled. Please read [CONTRIBUTING.md](../CONTRIBUTING.md) and [SECURITY.md](../SECURITY.md). Do not submit operational source, sensitive information or vulnerabilities publicly.
+Non-sensitive lab changes and documentation corrections may be proposed through public pull requests at the maintainer's discretion. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive engineering tasks, documentation corrections and general feedback. Please read [CONTRIBUTING.md](../CONTRIBUTING.md) and [SECURITY.md](../SECURITY.md). Do not submit operational source, sensitive information or vulnerabilities publicly.
 
 ## Continue the discussion on Discord
 
