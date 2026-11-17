@@ -25,7 +25,7 @@ I'm independently developing T-Bot, a local-first Solana trading system, while l
 
 ## Developers: start here
 
-Choose a [starter task](community/START_HERE.md), inspect the [standalone offline lab](examples/review_gate/README.md), or help improve its tests. The example is newly written, not extracted from T-Bot. It cannot trade or interact with wallets. Its results are not T-Bot qualification evidence.
+Choose a [starter task](community/START_HERE.md), inspect the [standalone offline lab](examples/review_gate/README.md), or help improve its tests. The example is newly written, not extracted from T-Bot, and is [MIT-licensed](examples/review_gate/LICENSE). The licence applies only to the standalone lab. It cannot trade or interact with wallets. Its results are not T-Bot qualification evidence.
 
 Discuss ideas with the ProcessOverProfit Discord community. [Request joining guidance](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access) through the Reddit or other existing community discussion where permitted. A verified direct application link is pending.
 

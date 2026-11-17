@@ -2,6 +2,10 @@
 
 Educational example only. This is original, separate example code, not T-Bot source. It takes a fictional verdict and approval flag and returns a dictionary. There is no executor, external action, network, API, wallet, signing, market data or private import. The dummy counter is computed, not an independently observed action.
 
+## Licence
+
+This directory is available under the [MIT License](LICENSE). The licence covers only this standalone lab, not the private T-Bot application, branding or documentation elsewhere in the repository. See the [rights notice](../../LICENSE-NOTICE.md).
+
 ## Reproduce
 
 Python 3, standard library only; no packages or credentials. Inspect both files first. From the directory containing them:

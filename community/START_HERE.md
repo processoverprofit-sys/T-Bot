@@ -1,6 +1,6 @@
 # Help build the public T-Bot contributor lab
 
-Voluntary, unpaid collaboration. No private source, wallets, credentials, Solana RPC or trading experience is required. This lab is an original educational example, not an extract from T-Bot.
+Voluntary, unpaid collaboration. No private source, wallets, credentials, Solana RPC or trading experience is required. This lab is an original educational example, not an extract from T-Bot. It is [MIT-licensed](../examples/review_gate/LICENSE); the private application is not licensed for distribution.
 
 | Task | Suitable for | Deliverable |
 | --- | --- | --- |

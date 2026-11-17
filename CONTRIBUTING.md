@@ -14,7 +14,7 @@ Please limit submissions to general, non-sensitive corrections or engineering su
 
 ## Rights and expectations
 
-Submit only material you have the right to share publicly. Feedback does not establish employment, contractual obligations, unrestricted access, a contributor licence agreement or an obligation to accept a contribution. Material posted publicly may be indexed or copied even if later removed.
+Submit only material you have the right to share publicly. Contributions to the standalone lab must be compatible with its [MIT licence](examples/review_gate/LICENSE). That licence applies only within the lab; the [rights notice](LICENSE-NOTICE.md) describes the remaining material. Feedback does not establish employment, contractual obligations, unrestricted access, a contributor licence agreement or an obligation to accept a contribution. Material posted publicly may be indexed or copied even if later removed.
 
 ## Before submitting
 
