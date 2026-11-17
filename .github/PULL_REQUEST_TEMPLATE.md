@@ -1,6 +1,6 @@
 ## Summary
 
-Describe the non-sensitive documentation correction.
+Describe the non-sensitive documentation or standalone lab change. Reference a starter task where relevant. State what you inspected, which lab tests you ran, the observed outcomes and limitations.
 
 ## Checks
 

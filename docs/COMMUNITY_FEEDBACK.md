@@ -25,6 +25,10 @@ Two further questions highlighted ambiguity in the distinction between security 
 
 The [testing document](TESTING.md) includes additional fictional specifications for these questions. They are not executed tests or proof of security.
 
+## Follow-up: requested risk-veto evidence
+
+A further reviewer asked for genuine observed evidence of risk rejection and non-invocation of the executor. That remains outstanding: no accepted, disclosure-approved observation of the actual T-Bot sequence is supplied here. The [standalone lab](../examples/review_gate/README.md) demonstrates only a fictional review gate with a dummy counter and cannot satisfy that request. See [starter tasks](../community/START_HERE.md) for public work on test design and evidence quality.
+
 ## Where I would appreciate help
 
 - Critique the public threat model: what important risks or assumptions are missing?
@@ -32,7 +36,7 @@ The [testing document](TESTING.md) includes additional fictional specifications 
 - Review the proposed test cases and suggest additional failure or boundary cases using fictional inputs.
 - Suggest ways to present reproducible evidence without exposing sensitive implementation or personal information.
 
-Non-sensitive documentation corrections may be proposed through public pull requests at the maintainer's discretion. Public Issues remain disabled. Please read [CONTRIBUTING.md](../CONTRIBUTING.md) and [SECURITY.md](../SECURITY.md). Do not submit operational source, sensitive information or vulnerabilities publicly.
+Non-sensitive lab changes and documentation corrections may be proposed through public pull requests at the maintainer's discretion. Public Issues remain disabled. Please read [CONTRIBUTING.md](../CONTRIBUTING.md) and [SECURITY.md](../SECURITY.md). Do not submit operational source, sensitive information or vulnerabilities publicly.
 
 ## Continue the discussion on Discord
 
