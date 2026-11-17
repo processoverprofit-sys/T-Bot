@@ -8,6 +8,8 @@
 
 I'm independently developing T-Bot, a local-first Solana trading system, while learning software engineering through hands-on development and AI-assisted research, coding and review. The project is not operational as a qualified trading system and is not a public product. Its design objectives include deterministic risk controls, defensive validation and verification before execution; these are not claims that every control is implemented or independently verified.
 
+**Explore:** [Overview](#project-overview) · [Technical documentation](#technical-documentation) · [Development status](#development-status) · [Community](#join-the-processoverprofit-community) · [FAQ](docs/FAQ.md) · [Public scope](#public-repository-scope)
+
 ## Project overview
 
 | Area | Public description |
@@ -31,6 +33,8 @@ Community feedback highlighted that an overview alone does not give developers e
 | [Threat model](docs/THREAT_MODEL.md) | Selected threats, intended controls and open questions |
 | [Testing and examples](docs/TESTING.md) | Proposed test methodology, illustrative cases and evidence limitations |
 | [Community feedback](docs/COMMUNITY_FEEDBACK.md) | How feedback is being addressed and where developers can help |
+
+For publication standards, see the [publication checklist](docs/PUBLICATION_CHECKLIST.md), [blank evidence report template](docs/EVIDENCE_REPORT_TEMPLATE.md) and [Stage 7 review record](docs/STAGE7_SECURITY_QUALITY_REVIEW.md). No actual test results are supplied by these templates.
 
 ## Engineering principles
 
@@ -63,7 +67,7 @@ If you'd like to help, you're welcome to express interest in discussing software
 
 ## Feedback and security
 
-I'm looking for constructive feedback on the public documentation, not customers or funds. Public Issues are currently disabled. Non-sensitive documentation corrections may be proposed through public pull requests under [CONTRIBUTING.md](CONTRIBUTING.md). See [community feedback](docs/COMMUNITY_FEEDBACK.md) for specific questions and [SECURITY.md](SECURITY.md) for confidential reporting. Do not disclose vulnerabilities or private information publicly.
+I'm looking for constructive feedback on the public documentation, not customers or funds. Read the [FAQ](docs/FAQ.md) and [code of conduct](CODE_OF_CONDUCT.md). Public Issues are currently disabled. Non-sensitive documentation corrections may be proposed through public pull requests under [CONTRIBUTING.md](CONTRIBUTING.md). See [community feedback](docs/COMMUNITY_FEEDBACK.md) for specific questions and [SECURITY.md](SECURITY.md) for confidential reporting. Do not disclose vulnerabilities or private information publicly.
 
 ## Financial disclaimer
 

@@ -27,3 +27,5 @@ No verified paper-trading logs or performance results are supplied here. The pro
 A future public evidence summary should include a case identifier, test scope, expected outcome, actual outcome, pass/fail/blocked status, date, limitations and review provenance. No result should be fabricated or labelled as passed merely because its expected outcome is documented.
 
 Feedback on the proposed methodology and case completeness is welcome.
+
+For future separately reviewed, disclosure-approved results, use the [blank evidence report template](EVIDENCE_REPORT_TEMPLATE.md). It contains no actual results and does not authorise tests or trading.
