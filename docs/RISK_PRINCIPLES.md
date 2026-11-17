@@ -14,6 +14,10 @@
 
 These public requirements are deliberately expressed as abstract predicates. They are not the private rule registry or a claim of tested coverage. IDs here are local to this public document and are not internal control identifiers.
 
+## Rule-based decision boundary
+
+The intended decision process evaluates explicit requirements using validated inputs, a defined policy version and relevant state. AI-generated advice is not a substitute for a required rule result or execution authorisation. This is a design requirement, not a claim that the private implementation has passed an isolation or reproducibility test.
+
 ## Limitations
 
 Risk checks do not guarantee that a token is safe, that an exit remains possible, or that a trade is profitable. Liquidity and execution costs may change rapidly. Deterministic processing does not make financial markets deterministic. Security qualification and evidence of trading performance are different things.

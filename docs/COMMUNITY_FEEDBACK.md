@@ -14,6 +14,17 @@ This is not a request for investment, free operational testing or access to anyo
 | Address slippage and rapidly changing or malicious tokens. | [Threat model](THREAT_MODEL.md) describes these risks and residual uncertainty. | Private control effectiveness is not established by this document. |
 | Publish a threat model and actual test cases. | [Threat model](THREAT_MODEL.md) and [illustrative test specifications](TESTING.md) provide a starting point for review. | Actual private test records and verified public results have not been published. |
 
+## Follow-up feedback — 17 November 2026
+
+Two further questions highlighted ambiguity in the distinction between security objectives, AI-assisted development and runtime decision-making.
+
+| Feedback (paraphrased) | Documentation response | Remaining evidence |
+| --- | --- | --- |
+| How can security be a priority if AI reviews are limited? | The [README](../README.md) and [development status](DEVELOPMENT_STATUS.md) explicitly distinguish security objectives from achieved assurance. AI review is not independent human assurance. | Implementation evidence and independent review are not established by this update. |
+| Are decisions fixed rules or a model selecting trades? | The intended decision path is rule-based; AI assists development rather than choosing trades or granting authority. See [architecture](ARCHITECTURE.md) and [risk principles](RISK_PRINCIPLES.md). | Implementation-level reproducibility and separation evidence remain required. |
+
+The [testing document](TESTING.md) includes additional fictional specifications for these questions. They are not executed tests or proof of security.
+
 ## Where I would appreciate help
 
 - Critique the public threat model: what important risks or assumptions are missing?

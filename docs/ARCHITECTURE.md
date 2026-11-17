@@ -30,7 +30,11 @@ The diagram describes intended logical responsibilities. It does not imply that 
 | Execution | Remain unavailable without required authorisation and qualification. |
 | Evidence | Record decisions and outcomes in a form suitable for later review. |
 
-AI-assisted engineering is separate from trading authority. A deterministic decision can be reproducible on identical inputs, but cannot make markets predictable or remove losses. External market conditions can change between observation and any attempted action.
+## AI-assisted development versus rule-based runtime decisions
+
+AI helps with development and review; the intended runtime eligibility and risk decisions use explicit rules, not model-generated trade recommendations. The design does not permit AI output to supply or override a required policy decision or authorisation. Identical validated inputs, policy version and relevant state should produce the same decision. This requirement is distinct from real-world market observations, which may vary.
+
+The architecture is conceptual. Public documentation alone cannot establish that the private implementation enforces these boundaries or behaves reproducibly. A deterministic decision cannot make markets predictable or remove losses. External market conditions can change between observation and any attempted action.
 
 The public GitHub documentation and Discord notifications are communication channels only. They provide no route into private signing, wallets, execution or operational resources.
 
