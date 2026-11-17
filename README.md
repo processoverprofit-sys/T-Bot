@@ -19,6 +19,8 @@ I'm independently developing T-Bot, a local-first Solana trading system, while l
 | Live-money execution | Not currently authorised |
 | Public distribution | Documentation only; no executable release |
 
+**Start here:** [FAQ](docs/FAQ.md) · [Publication checklist](docs/PUBLICATION_CHECKLIST.md) · [Evidence template](docs/EVIDENCE_REPORT_TEMPLATE.md) · [Community conduct](CODE_OF_CONDUCT.md) · [Engineering HQ](https://github.com/processoverprofit-sys/Processoverprofit-sys)
+
 ## Technical documentation
 
 Community feedback highlighted that an overview alone does not give developers enough information to assess engineering decisions. This documentation responds to that feedback without disclosing the private application.
