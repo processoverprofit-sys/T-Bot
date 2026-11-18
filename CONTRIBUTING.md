@@ -25,3 +25,7 @@ Submit only material you have the right to share publicly. Contributions to the 
 ## Before submitting
 
 Read the [publication checklist](docs/PUBLICATION_CHECKLIST.md) and [community conduct](CODE_OF_CONDUCT.md). Choose a [starter task](community/START_HERE.md). Use the pull request template for non-sensitive lab or toolkit changes or documentation corrections. Include test outcomes and limitations.
+
+## External contribution security
+
+Read the [external contribution security policy](docs/EXTERNAL_CONTRIBUTION_SECURITY.md). Treat all submissions as untrusted until reviewed. Public acceptance does not authorise private integration, execution, or access. Changes after review require renewed review of the exact revision.
