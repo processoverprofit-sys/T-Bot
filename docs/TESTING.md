@@ -6,6 +6,10 @@
 
 The separate [Validation Toolkit V1](../components/validation/README.md) contains executable fictional-input tests. Its [observed results](../components/validation/TEST_RESULTS.md) record 57/57 original and 57/57 portable reproduction tests on the standalone component, not the private application. Its [test plan](../components/validation/TEST_PLAN.md) is the historical proposed plan. The fictional private-system specifications below remain unexecuted. See the [reviewer guide](../components/validation/REVIEWERS.md) to challenge the code and coverage.
 
+## Standalone evidence integrity toolkit results
+
+The separate [Evidence Integrity Toolkit V1 (Revision A)](../components/evidence_integrity/README.md) includes [84 fictional regression cases](../components/evidence_integrity/TEST_PLAN.md) and a [portable harness](../components/evidence_integrity/test_integrity.py). [Observed results](../components/evidence_integrity/TEST_RESULTS.md) preserve the original 59/60 result, the nesting and Unicode corrections, and two subsequent 84/84 runs. Owner-run, AI-assisted tests do not establish independent assurance, comprehensive resource safety or private-application qualification. See the [reviewer guide](../components/evidence_integrity/REVIEWERS.md). The toolkit is not a complete manifest verifier.
+
 ## Proposed method
 
 Define a requirement and a precise expected outcome before testing. Use controlled, non-live inputs and distinguish positive, negative and boundary cases. Record actual outcomes independently of the expectation, including failures and uncertainty. Repeat where reproducibility matters and record the reviewer's relationship to the work. Do not infer overall production readiness from isolated tests.

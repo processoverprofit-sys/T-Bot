@@ -15,9 +15,11 @@ Voluntary, unpaid collaboration. No private source, wallets, credentials, Solana
 
 Start with the [Validation Toolkit V1 reviewer guide](../components/validation/REVIEWERS.md). Inspect the [four validators](../components/validation/validators.py), reproduce the [57 tests](../components/validation/test_validators.py) and challenge the [observed results](../components/validation/TEST_RESULTS.md). Choose CR-01 through CR-07. The toolkit is separately MIT-licensed; no private application access is granted.
 
+The [Evidence Integrity Toolkit V1 (Revision A) reviewer guide](../components/evidence_integrity/REVIEWERS.md) offers EI-01 through EI-08. Inspect the [implementation](../components/evidence_integrity/integrity.py), reproduce the [84 fictional tests](../components/evidence_integrity/test_integrity.py) and critique the [historical and corrected results](../components/evidence_integrity/TEST_RESULTS.md). This toolkit is separately MIT-licensed and does not establish producer authentication or complete manifest verification.
+
 ## Engineering contribution tasks
 
-These tasks address reusable engineering needs through public-safe proposals, fictional inputs and changes limited to the public lab or approved validation toolkit. ENG-02 is the validation review entry point; ENG-03 supports test reproducibility.
+These tasks address reusable engineering needs through public-safe proposals, fictional inputs and changes limited to the public lab or approved standalone toolkits. ENG-01 is the evidence integrity review entry point; ENG-02 is the validation review entry point; ENG-03 supports test reproducibility.
 
 | Task | Focus |
 | --- | --- |
@@ -30,10 +32,10 @@ These tasks address reusable engineering needs through public-safe proposals, fi
 
 ProcessOverProfit has community conversations, developer collaboration spaces, restricted private discussion areas and GitHub notification channels. Discuss ideas and progress in channels you are authorised to access. Private access remains separately controlled.
 
-[How to request a Discord invitation](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access): ask the maintainer in the Reddit or other existing community discussion where permitted. A direct application URL has not yet been verified. If already in Discord, tell the community which LAB, ENG or CR task interests you.
+[How to request a Discord invitation](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access): ask the maintainer in the Reddit or other existing community discussion where permitted. A direct application URL has not yet been verified. If already in Discord, tell the community which LAB, ENG, CR or EI task interests you.
 
 ## Start working
 
-Read the [lab instructions](../examples/review_gate/README.md), [toolkit reviewer guide](../components/validation/REVIEWERS.md), [contribution policy](../CONTRIBUTING.md) and [rights notice](../LICENSE-NOTICE.md). Choose a task, propose an original non-sensitive improvement, and explain your observations in a focused public pull request. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive task coordination and feedback. Do not use issues or pull requests to request membership.
+Read the [lab instructions](../examples/review_gate/README.md), [validation reviewer guide](../components/validation/REVIEWERS.md), [evidence integrity reviewer guide](../components/evidence_integrity/REVIEWERS.md), [contribution policy](../CONTRIBUTING.md) and [rights notice](../LICENSE-NOTICE.md). Choose a task, propose an original non-sensitive improvement, and explain your observations in a focused public pull request. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive task coordination and feedback. Do not use issues or pull requests to request membership.
 
 No real transactions, trading integration, private-system testing, or operational configuration are in scope. The maintainer may consider future personal-use access to a separately qualified version for meaningful contributors, subject to readiness, rights, terms and separate approval. No software access, compensation, profit or financial return is promised.

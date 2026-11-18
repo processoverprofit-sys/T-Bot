@@ -1,6 +1,6 @@
 # Development status
 
-**Public documentation | 17 November 2026**
+**Public documentation | 18 November 2026**
 
 T-Bot is an independently developed research and software-engineering project. I am learning as I build it, using AI-assisted development and review. It is not a qualified operational trading system or a public release. Nobody is being asked to deposit funds, connect a wallet or trust the bot with their SOL.
 
@@ -18,6 +18,7 @@ T-Bot is an independently developed research and software-engineering project. I
 | Public operational application or source distribution | None |
 | Standalone educational example | Separate lab; not private application code or qualification evidence |
 | Selected source-derived validation toolkit | Four standalone validators; [57/57 original and reproduction tests](../components/validation/TEST_RESULTS.md); not private-application qualification |
+| Selected source-derived evidence integrity toolkit | Byte-integrity and strict JSON utilities; [historical V1 59/60, corrected Revision A and portable reproduction each 84/84](../components/evidence_integrity/TEST_RESULTS.md); not private-application qualification |
 
 This table is a disclosure summary, not an audit of private implementation. It makes no claim about specific private test runs, their counts or outcomes.
 

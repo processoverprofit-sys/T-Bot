@@ -1,0 +1,115 @@
+# Observed standalone test results
+
+Owner-run, AI-assisted fictional testing. No independent human review or production qualification is claimed.
+
+| Run | Cases | Pass | Fail |
+|---|---:|---:|---:|
+| Historical V1 | 60 | 59 | 1 |
+| Revision A | 84 | 84 | 0 |
+| Portable release harness | 84 | 84 | 0 |
+
+All three recorded runs used Python 3.12.3 and checked a separate network namespace with loopback as the only interface. No private application was included in the isolated input. Integer digit limit: 640 for the relevant tests; recursion limit: 1000. The portable run returned exit code 0.
+
+Historical T58 accepted excessive nesting; T53 characterized acceptance of an unpaired surrogate. Revision A rejects both. T82 accepts the specified depth-128 document in the tested environment; T83 rejects depth 129. Historical harness staging first stopped on a digest-literal replacement mismatch; a corrected preparation subsequently ran all 84 cases. The terminal transcript also contained two shell command-substitution diagnostics before that run; their cause was not established. The recorded test output, pinned harness and source, and pre/post preservation checks were reconciled. Portable verification uses a direct process invocation without those shell substitutions.
+
+## Portable test identities
+
+- `integrity.py` SHA-256: `0e5276893cee5539a60357946aaac604e81a247c82413c3be492ab3781bacbc5`
+- `test_integrity.py` SHA-256: `22eeb054444330d5c29d8a08b552d922b79e92b7c40200b3d78c35315a0a4f83`
+
+## Portable test observations
+
+```text
+T01 PASS EXPECTED_VALUE
+T02 PASS EXPECTED_REJECTION
+T03 PASS EXPECTED_REJECTION
+T04 PASS EXPECTED_REJECTION
+T05 PASS EXPECTED_REJECTION
+T06 PASS EXPECTED_VALUE
+T07 PASS EXPECTED_REJECTION
+T08 PASS EXPECTED_REJECTION
+T09 PASS EXPECTED_REJECTION
+T10 PASS EXPECTED_REJECTION
+T11 PASS EXPECTED_VALUE
+T12 PASS EXPECTED_REJECTION
+T13 PASS EXPECTED_REJECTION
+T14 PASS EXPECTED_REJECTION
+T15 PASS EXPECTED_REJECTION
+T16 PASS EXPECTED_REJECTION
+T17 PASS EXPECTED_REJECTION
+T18 PASS EXPECTED_REJECTION
+T19 PASS EXPECTED_REJECTION
+T20 PASS EXPECTED_REJECTION
+T21 PASS EXPECTED_REJECTION
+T22 PASS EXPECTED_REJECTION
+T23 PASS EXPECTED_REJECTION
+T24 PASS EXPECTED_REJECTION
+T25 PASS EXPECTED_REJECTION
+T26 PASS EXPECTED_REJECTION
+T27 PASS EXPECTED_REJECTION
+T28 PASS EXPECTED_REJECTION
+T29 PASS EXPECTED_REJECTION
+T30 PASS EXPECTED_REJECTION
+T31 PASS EXPECTED_REJECTION
+T32 PASS EXPECTED_REJECTION
+T33 PASS EXPECTED_REJECTION
+T34 PASS EXPECTED_VALUE
+T35 PASS EXPECTED_VALUE
+T36 PASS EXPECTED_REJECTION
+T37 PASS EXPECTED_VALUE
+T38 PASS EXPECTED_REJECTION
+T39 PASS EXPECTED_REJECTION
+T40 PASS EXPECTED_REJECTION
+T41 PASS EXPECTED_REJECTION
+T42 PASS EXPECTED_REJECTION
+T43 PASS EXPECTED_REJECTION
+T44 PASS EXPECTED_REJECTION
+T45 PASS EXPECTED_REJECTION
+T46 PASS EXPECTED_REJECTION
+T47 PASS EXPECTED_REJECTION
+T48 PASS EXPECTED_REJECTION
+T49 PASS EXPECTED_REJECTION
+T50 PASS EXPECTED_REJECTION
+T51 PASS EXPECTED_REJECTION
+T52 PASS EXPECTED_REJECTION
+T53 PASS EXPECTED_REJECTION
+T54 PASS EXPECTED_VALUE
+T55 PASS EXPECTED_REJECTION
+T56 PASS EXPECTED_VALUE
+T57 PASS EXPECTED_REJECTION
+T58 PASS EXPECTED_REJECTION
+T59 PASS EXPECTED_REJECTION
+T60 PASS EXPECTED_VALUE
+T61 PASS EXPECTED_VALUE
+T62 PASS EXPECTED_REJECTION
+T63 PASS EXPECTED_VALUE
+T64 PASS EXPECTED_REJECTION
+T65 PASS EXPECTED_REJECTION
+T66 PASS EXPECTED_REJECTION
+T67 PASS EXPECTED_REJECTION
+T68 PASS EXPECTED_REJECTION
+T69 PASS EXPECTED_REJECTION
+T70 PASS EXPECTED_VALUE
+T71 PASS EXPECTED_VALUE
+T72 PASS EXPECTED_VALUE
+T73 PASS EXPECTED_REJECTION
+T74 PASS EXPECTED_REJECTION
+T75 PASS EXPECTED_REJECTION
+T76 PASS EXPECTED_REJECTION
+T77 PASS EXPECTED_VALUE
+T78 PASS EXPECTED_REJECTION
+T79 PASS EXPECTED_REJECTION
+T80 PASS EXPECTED_REJECTION
+T81 PASS EXPECTED_REJECTION
+T82 PASS EXPECTED_VALUE
+T83 PASS EXPECTED_REJECTION
+T84 PASS EXPECTED_REJECTION
+TESTS_OBSERVED=84
+PASS=84
+FAIL=0
+STANDALONE_TEST_RESULT=PASS
+```
+
+## Limits
+
+These results concern the fictional cases only. They do not establish exhaustive correctness, producer authentication, semantic truth, complete manifest verification, comprehensive resource-exhaustion resistance, independent assurance, or operational authorization. Parser resource limits can differ by Python environment. The portable harness does not itself create a network namespace; isolation was verified by the separate owner-local runner.

@@ -2,7 +2,7 @@
 
 ## Scope
 
-This is a **public, documentation and approved standalone-code** repository. It is not a public release of the private software project, its credentials, operational infrastructure, signing systems or internal evidence.
+This is a **public, documentation and approved standalone-code** repository. It is not a public release of the private software project, its credentials, operational infrastructure, signing systems or internal evidence. Public review scope includes the standalone [lab](examples/review_gate/README.md), [validation toolkit](components/validation/README.md) and [evidence integrity toolkit](components/evidence_integrity/README.md); no private-system testing is authorised.
 
 ## Confidential reporting
 
