@@ -2,6 +2,10 @@
 
 **Status:** Proposed public test specifications. The examples below are fictional and have not been run or verified against the private application as part of this documentation. They are not actual private test records, an executable test suite, evidence of successful testing or paper-trading results.
 
+## Standalone validation toolkit results
+
+The separate [Validation Toolkit V1](../components/validation/README.md) contains executable fictional-input tests. Its [observed results](../components/validation/TEST_RESULTS.md) record 57/57 original and 57/57 portable reproduction tests on the standalone component, not the private application. Its [test plan](../components/validation/TEST_PLAN.md) is the historical proposed plan. The fictional private-system specifications below remain unexecuted. See the [reviewer guide](../components/validation/REVIEWERS.md) to challenge the code and coverage.
+
 ## Proposed method
 
 Define a requirement and a precise expected outcome before testing. Use controlled, non-live inputs and distinguish positive, negative and boundary cases. Record actual outcomes independently of the expectation, including failures and uncertainty. Repeat where reproducibility matters and record the reviewer's relationship to the work. Do not infer overall production readiness from isolated tests.

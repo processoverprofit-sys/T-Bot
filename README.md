@@ -19,11 +19,13 @@ I'm independently developing T-Bot, a local-first Solana trading system, while l
 | Project type | Privately developed automated trading system |
 | Current phase | Active private development and security qualification |
 | Live-money execution | Not currently authorised |
-| Public distribution | Documentation and standalone educational lab; no operational application release |
+| Public distribution | Documentation, standalone educational lab and selected source-derived validation toolkit; no operational application release |
 
 **Start here:** [FAQ](docs/FAQ.md) · [Publication checklist](docs/PUBLICATION_CHECKLIST.md) · [Evidence template](docs/EVIDENCE_REPORT_TEMPLATE.md) · [Community conduct](CODE_OF_CONDUCT.md) · [Engineering HQ](https://github.com/processoverprofit-sys/Processoverprofit-sys)
 
 ## Developers: start here
+
+**New: [T-Bot Validation Toolkit V1](components/validation/README.md)** — four genuine source-derived Python validators, [57 reproducible tests](components/validation/test_validators.py), and [observed results](components/validation/TEST_RESULTS.md). Owner-run, AI-assisted original and portable reproduction tests each passed 57/57; this is not private-application qualification. Reviewers: start with the [dedicated code-review guide](components/validation/REVIEWERS.md) and [ENG-02](https://github.com/processoverprofit-sys/T-Bot/issues/8). [TEST_PLAN.md](components/validation/TEST_PLAN.md) is the historical proposed plan; the subsequent observed outcomes are in TEST_RESULTS.md. The [MIT licence](components/validation/LICENSE) is restricted to this toolkit.
 
 Choose a [starter task](community/START_HERE.md), inspect the [standalone offline lab](examples/review_gate/README.md), or help improve its tests. The example is newly written, not extracted from T-Bot, and is [MIT-licensed](examples/review_gate/LICENSE). The licence applies only to the standalone lab. It cannot trade or interact with wallets. Its results are not T-Bot qualification evidence.
 
@@ -65,7 +67,7 @@ Active private development and security qualification. T-Bot is not publicly rel
 
 ## Public repository scope
 
-This repository contains documentation and a separate, non-operational educational example. It does not distribute operational T-Bot source, application binaries, trading strategies, live risk thresholds, internal configurations, wallet addresses, signing credentials, API keys or private security evidence. See [rights notice](LICENSE-NOTICE.md) for current licensing scope.
+This repository contains documentation, a separate non-operational educational example and the standalone source-derived validation toolkit. It does not distribute operational T-Bot source, application binaries, trading strategies, live risk thresholds, internal configurations, wallet addresses, signing credentials, API keys or private security evidence. See [rights notice](LICENSE-NOTICE.md) for current licensing scope.
 
 For the wider portfolio, visit [ProcessOverProfit | Engineering HQ](https://github.com/processoverprofit-sys/Processoverprofit-sys). [BrainBot](https://github.com/processoverprofit-sys/BrainBot) is documented separately.
 
@@ -79,7 +81,7 @@ If you'd like to help, you're welcome to express interest in discussing software
 
 ## Feedback and security
 
-I'm looking for constructive feedback on the public documentation, not customers or funds. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive engineering tasks, documentation corrections and general feedback. Non-sensitive lab improvements and documentation corrections may be proposed through public pull requests under [CONTRIBUTING.md](CONTRIBUTING.md). See [community feedback](docs/COMMUNITY_FEEDBACK.md) for specific questions and [SECURITY.md](SECURITY.md) for confidential reporting. Do not disclose vulnerabilities or private information publicly.
+I'm looking for constructive feedback on the public documentation and code, not customers or funds. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive engineering tasks, documentation corrections and general feedback. Non-sensitive lab and validation-toolkit improvements and documentation corrections may be proposed through public pull requests under [CONTRIBUTING.md](CONTRIBUTING.md). See [community feedback](docs/COMMUNITY_FEEDBACK.md) for specific questions and [SECURITY.md](SECURITY.md) for confidential reporting. Do not disclose vulnerabilities or private information publicly.
 
 ## Financial disclaimer
 

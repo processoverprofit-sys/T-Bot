@@ -29,6 +29,10 @@ The [testing document](TESTING.md) includes additional fictional specifications 
 
 A further reviewer asked for genuine observed evidence of risk rejection and non-invocation of the executor. That remains outstanding: no accepted, disclosure-approved observation of the actual T-Bot sequence is supplied here. The [standalone lab](../examples/review_gate/README.md) demonstrates only a fictional review gate with a dummy counter and cannot satisfy that request. See [starter tasks](../community/START_HERE.md) for public work on test design and evidence quality.
 
+## Follow-up: genuine source-derived component — 18 November 2026
+
+In response to requests for actual code and reproducible tests, the [Validation Toolkit V1](../components/validation/README.md) makes four selected, non-operational source-derived validators available under a toolkit-only MIT licence. The [observed results](../components/validation/TEST_RESULTS.md) record two 57/57 owner-run, AI-assisted standalone runs. This does not supply the outstanding private risk-veto or execution evidence. The original [test plan](../components/validation/TEST_PLAN.md) is historical, not a statement of current test status. Experienced developers are invited to challenge the implementation via the [review guide](../components/validation/REVIEWERS.md) and [ENG-02](https://github.com/processoverprofit-sys/T-Bot/issues/8).
+
 ## Where I would appreciate help
 
 - Critique the public threat model: what important risks or assumptions are missing?
@@ -36,7 +40,7 @@ A further reviewer asked for genuine observed evidence of risk rejection and non
 - Review the proposed test cases and suggest additional failure or boundary cases using fictional inputs.
 - Suggest ways to present reproducible evidence without exposing sensitive implementation or personal information.
 
-Non-sensitive lab changes and documentation corrections may be proposed through public pull requests at the maintainer's discretion. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive engineering tasks, documentation corrections and general feedback. Please read [CONTRIBUTING.md](../CONTRIBUTING.md) and [SECURITY.md](../SECURITY.md). Do not submit operational source, sensitive information or vulnerabilities publicly.
+Non-sensitive lab and validation-toolkit changes and documentation corrections may be proposed through public pull requests at the maintainer's discretion. [Public Issues](https://github.com/processoverprofit-sys/T-Bot/issues) are enabled for non-sensitive engineering tasks, documentation corrections and general feedback. Please read [CONTRIBUTING.md](../CONTRIBUTING.md) and [SECURITY.md](../SECURITY.md). Do not submit operational source, sensitive information or vulnerabilities publicly.
 
 ## Continue the discussion on Discord
 
