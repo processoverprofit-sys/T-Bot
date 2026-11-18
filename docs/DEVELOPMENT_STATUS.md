@@ -17,6 +17,7 @@ T-Bot is an independently developed research and software-engineering project. I
 | Live-money execution | Not authorised |
 | Public operational application or source distribution | None |
 | Standalone educational example | Separate lab; not private application code or qualification evidence |
+| Selected source-derived validation toolkit | Four standalone validators; [57/57 original and reproduction tests](../components/validation/TEST_RESULTS.md); not private-application qualification |
 
 This table is a disclosure summary, not an audit of private implementation. It makes no claim about specific private test runs, their counts or outcomes.
 

@@ -1,6 +1,6 @@
 ## Summary
 
-Describe the non-sensitive documentation or standalone lab change. Reference a starter task where relevant. State what you inspected, which lab tests you ran, the observed outcomes and limitations.
+Describe the non-sensitive documentation, standalone lab or validation-toolkit change. Reference a starter task where relevant. State what you inspected, which component tests you ran, the observed outcomes and limitations.
 
 ## Checks
 

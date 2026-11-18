@@ -2,7 +2,7 @@
 
 ## Scope
 
-This is a **public, documentation-only** repository. It is not a public release of the private software project, its credentials, operational infrastructure, signing systems or internal evidence.
+This is a **public, documentation and approved standalone-code** repository. It is not a public release of the private software project, its credentials, operational infrastructure, signing systems or internal evidence.
 
 ## Confidential reporting
 
