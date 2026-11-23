@@ -31,7 +31,7 @@ I'm independently developing T-Bot, a local-first Solana trading system, while l
 
 Choose a [starter task](community/START_HERE.md), inspect the [standalone offline lab](examples/review_gate/README.md), or help improve its tests. The example is newly written, not extracted from T-Bot, and is [MIT-licensed](examples/review_gate/LICENSE). The licence applies only to the standalone lab. It cannot trade or interact with wallets. Its results are not T-Bot qualification evidence.
 
-Discuss ideas with the ProcessOverProfit Discord community. [Request joining guidance](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access) through the Reddit or other existing community discussion where permitted. A verified direct application link is pending.
+Discuss ideas with the ProcessOverProfit Discord community: **[Open the Discord invitation](https://discord.gg/TZEmXr2BN)**. Admission and any application screening are managed in Discord. See the [community guide](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access).
 
 ## Technical documentation
 
@@ -79,7 +79,7 @@ I've set up a dedicated ProcessOverProfit Discord community for developers, Linu
 
 If you'd like to help, you're welcome to express interest in discussing software architecture, Python, Solana, risk-control design, testing or the public documentation. You don't need to be an expert to join the conversation. Constructive feedback and questions are welcome.
 
-**Joining guidance:** [ProcessOverProfit community guide](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access). Discord access is managed by the maintainer. If you found this project through Reddit or another community discussion, you can ask me there for an invitation where the community rules permit. No public invite is listed here at present. Joining Discord does not grant access to private source code, operational systems or trading authority.
+**Discord invitation:** **[Join or request access to ProcessOverProfit Discord](https://discord.gg/TZEmXr2BN)**. Any application questions or admission decisions are handled within Discord under the server's current access settings. See the [community guide](https://github.com/processoverprofit-sys/Processoverprofit-sys/blob/main/docs/COMMUNITY.md#requesting-discord-access). Joining Discord does not grant access to private source code, operational systems or trading authority.
 
 ## Feedback and security
 
